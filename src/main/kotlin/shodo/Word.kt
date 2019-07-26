@@ -9,7 +9,6 @@ class Word(val word: String) {
         }
     }
 
-
     fun splitInSyllables(syllableDictionary: Set<String>): List<String> {
         var wordCopy = word.toLowerCase()
         val syllables = mutableListOf<String>()
